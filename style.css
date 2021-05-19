@@ -1,0 +1,191 @@
+            /*GENERAL*/
+            
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            
+            body {
+                font-family: sans-serif;
+            }
+            
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                font-weight: bold;
+            }
+            
+            img {
+                max-width: 50%;
+                height: auto;
+            }
+            
+            section {
+                padding: 35px 0 40px 0;
+            }
+            
+            section .heading {
+                text-align: center;
+                padding-bottom: 40px;
+            }
+            /*About*/
+            
+            #about {
+                padding-top: 100px;
+                background: #9E6045;
+            }
+            
+            .profile-picture {
+                text-align: center;
+                margin: 0 auto;
+                float: none;
+            }
+            
+            #about img {
+                max-width: 100%;
+                height: auto;
+            }
+            
+            #about .heading h1 {
+                font-size: 40px;
+                color: #660000;
+                font-family: 'Bree Serif', serif;
+            }
+            
+            #about .heading h3 {
+                color: #ac3939;
+                font-size: 20px;
+            }
+            
+            .button1 {
+                font-weight: bold;
+                text-transform: uppercase;
+                color: #660000;
+                border: 1px solid #660000;
+                display: inline-block;
+                margin-top: 20px;
+                padding: 18px 50px;
+                border-radius: 3px;
+                transition: all O.3s ease-in 0s;
+            }
+            
+            .button1:hover {
+                background: #660000;
+                color: #F5F5DC;
+                text-decoration: none;
+            }
+            /* Propo */
+            
+            #propo {
+                justify-content: center;
+            }
+            
+            #propo h2 {
+                font-size: 40px;
+                margin-bottom: 20px;
+                color: #660000;
+                text-align: center;
+                font-family: 'Lobster', cursive;
+            }
+            
+            #propo p {
+                margin-bottom: 20px;
+                color: black;
+                text-align: center;
+                font-family: 'Lato', sans-serif;
+                font-size: 18px;
+                margin: 0 10%;
+            }
+            /*Portfolio*/
+            
+            #portfolio {
+                flex-wrap: wrap;
+                padding: 20px;
+                background-color: #9E6045;
+                margin: 0 10%;
+                border: 2px #F5F5DC solid;
+                border-radius: 2%;
+            }
+            
+            #portfolio h2 {
+                font-size: 40px;
+                margin-bottom: 20px;
+                color: #660000;
+                text-align: center;
+                font-family: 'Lobster', cursive;
+            }
+            
+            #portfolio ul {
+                display: flex;
+                justify-content: center;
+            }
+            
+            #portfolio li {
+                text-align: center;
+                list-style: none;
+            }
+            
+            #projet1,
+            #projet2,
+            #projet3,
+            #projet4 {
+                border-radius: 10%;
+                margin: auto;
+            }
+            
+            .pr {
+                width: 450px;
+                height: 230px;
+                border: 2px #df9f9f solid;
+                border-radius: 3%;
+                object-fit: cover;
+            }
+            
+            .clear {
+                clear: both;
+            }
+            
+            footer {
+                margin-top: 20px;
+                background-color: #444;
+            }
+            
+            footer h1 {
+                color: #F5F5DC;
+                text-align: center;
+                padding-top: 20px;
+                padding-bottom: 10px;
+                font-size: 25px;
+                font-family: 'Lobster', cursive;
+            }
+            
+            footer p {
+                color: #F5F5DC;
+                text-align: center;
+                margin: 0 20px;
+                font-family: 'Lato', sans-serif;
+            }
+            
+            footer a {
+                color: #F5F5DC;
+                font-family: 'Lato', sans-serif;
+            }
+            
+            #contact {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                text-align: center;
+                margin: 20px;
+            }
+            
+            #droit {
+                color: #F5F5DC;
+                text-align: center;
+                font-size: 15px;
+                padding-top: 15px;
+                font-family: 'Lato', sans-serif;
+            }
