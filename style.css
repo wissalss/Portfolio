@@ -121,11 +121,13 @@
             #portfolio ul {
                 display: flex;
                 justify-content: center;
+                flex-wrap: wrap;
             }
             
             #portfolio li {
                 text-align: center;
                 list-style: none;
+                margin-top: 2rem;
             }
             
             #projet1,
@@ -142,10 +144,6 @@
                 border: 2px #df9f9f solid;
                 border-radius: 3%;
                 object-fit: cover;
-            }
-            
-            .clear {
-                clear: both;
             }
             
             footer {
